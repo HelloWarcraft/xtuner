@@ -25,19 +25,19 @@ English | [简体中文](README_zh-CN.md)
 
 </div>
 
-## 🚀 Speed Benchmark
+## 🚀 Training Plan
 
-- Llama2 7B Training Speed
+| Task                 | Time      |
+| -------------------- | --------- |
+| crawl raw data       | 7.21-7.23 |
+| wash the data        | 7.23-7.25 |
+| convert data to json | 7.26      |
+| finetune             | 7.27-8.2  |
+| test results         | 8.3       |
+| re-finetune          | 8.4-8.7   |
 
-<div align=center>
-  <img src="https://github.com/InternLM/xtuner/assets/41630003/9c9dfdf4-1efb-4daf-84bf-7c379ae40b8b" style="width:80%">
-</div>
 
-- Llama2 70B Training Speed
 
-<div align=center>
-  <img src="https://github.com/InternLM/xtuner/assets/41630003/5ba973b8-8885-4b72-b51b-c69fa1583bdd" style="width:80%">
-</div>
 
 ## 🎉 News
 
