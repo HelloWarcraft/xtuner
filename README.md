@@ -1,6 +1,6 @@
 <div align="center">
-  <img src = "https://github.com/user-attachments/assets/93ff2412-777c-4619-812b-0134eb327cf3" width="300"/>
-  <img src="https://github.com/InternLM/lmdeploy/assets/36994684/0cf8d00f-e86b-40ba-9b54-dc8f1bc6c8d8" width="300"/>
+  <img src = "https://github.com/user-attachments/assets/93ff2412-777c-4619-812b-0134eb327cf3" width="600"/>
+  <img src="https://github.com/InternLM/lmdeploy/assets/36994684/0cf8d00f-e86b-40ba-9b54-dc8f1bc6c8d8" width="600"/>
   <br /><br />
   
 
@@ -29,37 +29,17 @@ English | [简体中文](README_zh-CN.md)
 
 | Task                 | Time      |
 | -------------------- | --------- |
-| crawl raw data       | 7.21-7.23 |
-| wash the data        | 7.23-7.25 |
-| convert data to json | 7.26      |
-| finetune             | 7.27-8.2  |
-| test results         | 8.3       |
-| re-finetune          | 8.4-8.7   |
+| crawl raw data       | 7.23-7.25 |
+| wash the data        | 7.25-7.27 |
+| convert data to json | 7.28      |
+| finetune             | 8.3-8.7   |
+| test results         | 8.8       |
+| re-finetune          | 8.9-8.12  |
 
+## 🧠 MindMap
 
+![](https://picx.zhimg.com/80/v2-a852a4f3d4b8993e57ad0812cd07fc97_1440w.jpeg)
 
-
-## 🎉 News
-
-- **\[2024/07\]** Support [DPO](https://github.com/InternLM/xtuner/tree/main/xtuner/configs/dpo), [ORPO](https://github.com/InternLM/xtuner/tree/main/xtuner/configs/orpo) and [Reward Model](https://github.com/InternLM/xtuner/tree/main/xtuner/configs/reward_model) training with packed data and sequence parallel! See [documents](https://xtuner.readthedocs.io/en/latest/dpo/overview.html) for more details.
-- **\[2024/07\]** Support [InternLM 2.5](xtuner/configs/internlm/internlm2_5_chat_7b/) models!
-- **\[2024/06\]** Support [DeepSeek V2](xtuner/configs/deepseek/deepseek_v2_chat/) models! **2x faster!**
-- **\[2024/04\]** [LLaVA-Phi-3-mini](https://huggingface.co/xtuner/llava-phi-3-mini-hf) is released! Click [here](xtuner/configs/llava/phi3_mini_4k_instruct_clip_vit_large_p14_336) for details!
-- **\[2024/04\]** [LLaVA-Llama-3-8B](https://huggingface.co/xtuner/llava-llama-3-8b) and [LLaVA-Llama-3-8B-v1.1](https://huggingface.co/xtuner/llava-llama-3-8b-v1_1) are released! Click [here](xtuner/configs/llava/llama3_8b_instruct_clip_vit_large_p14_336) for details!
-- **\[2024/04\]** Support [Llama 3](xtuner/configs/llama) models!
-- **\[2024/04\]** Support Sequence Parallel for enabling highly efficient and scalable LLM training with extremely long sequence lengths! \[[Usage](https://github.com/InternLM/xtuner/blob/docs/docs/zh_cn/acceleration/train_extreme_long_sequence.rst)\] \[[Speed Benchmark](https://github.com/InternLM/xtuner/blob/docs/docs/zh_cn/acceleration/benchmark.rst)\]
-- **\[2024/02\]** Support [Gemma](xtuner/configs/gemma) models!
-- **\[2024/02\]** Support [Qwen1.5](xtuner/configs/qwen/qwen1_5) models!
-- **\[2024/01\]** Support [InternLM2](xtuner/configs/internlm) models! The latest VLM [LLaVA-Internlm2-7B](https://huggingface.co/xtuner/llava-internlm2-7b) / [20B](https://huggingface.co/xtuner/llava-internlm2-20b) models are released, with impressive performance!
-- **\[2024/01\]** Support [DeepSeek-MoE](https://huggingface.co/deepseek-ai/deepseek-moe-16b-chat) models! 20GB GPU memory is enough for QLoRA fine-tuning, and 4x80GB for full-parameter fine-tuning. Click [here](xtuner/configs/deepseek/) for details!
-- **\[2023/12\]** 🔥 Support multi-modal VLM pretraining and fine-tuning with [LLaVA-v1.5](https://github.com/haotian-liu/LLaVA) architecture! Click [here](xtuner/configs/llava/README.md) for details!
-- **\[2023/12\]** 🔥 Support [Mixtral 8x7B](https://huggingface.co/mistralai/Mixtral-8x7B-Instruct-v0.1) models! Click [here](xtuner/configs/mixtral/README.md) for details!
-- **\[2023/11\]** Support [ChatGLM3-6B](xtuner/configs/chatglm) model!
-- **\[2023/10\]** Support [MSAgent-Bench](https://modelscope.cn/datasets/damo/MSAgent-Bench) dataset, and the fine-tuned LLMs can be applied by [Lagent](https://github.com/InternLM/lagent)!
-- **\[2023/10\]** Optimize the data processing to accommodate `system` context. More information can be found on [Docs](docs/en/user_guides/dataset_format.md)!
-- **\[2023/09\]** Support [InternLM-20B](xtuner/configs/internlm) models!
-- **\[2023/09\]** Support [Baichuan2](xtuner/configs/baichuan) models!
-- **\[2023/08\]** XTuner is released, with multiple fine-tuned adapters on [Hugging Face](https://huggingface.co/xtuner).
 
 ## 📖 Introduction
 
