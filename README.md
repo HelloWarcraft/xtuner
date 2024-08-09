@@ -25,6 +25,10 @@ English | [简体中文](README_zh-CN.md)
 
 </div>
 
+## 🧠 MindMap
+
+![](https://picx.zhimg.com/80/v2-a852a4f3d4b8993e57ad0812cd07fc97_1440w.jpeg)
+
 ## 🚀 Training Plan
 
 | Task                 | Time      |
@@ -36,9 +40,6 @@ English | [简体中文](README_zh-CN.md)
 | test results         | 8.8       |
 | re-finetune          | 8.9-8.12  |
 
-## 🧠 MindMap
-
-![](https://picx.zhimg.com/80/v2-a852a4f3d4b8993e57ad0812cd07fc97_1440w.jpeg)
 
 
 ## 📖 Introduction
