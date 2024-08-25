@@ -36,10 +36,10 @@ English | [简体中文](README_zh-CN.md)
 | crawl raw data | 7.23-7.25 | √   |
 | wash the data | 7.25-7.27 | √   |
 | convert data to json | 7.28 | √   |
-| finish camp3-l1 | 8.1-8.8 | √   |
+| finish camp3-L1 | 8.1-8.8 | √   |
 | finetune | 8.9-8.14 | √   |
 | test results | 8.15 | √   |
-| finish camp3-l2 | 8.16-8.22 | √   |
+| finish camp3-L2 | 8.16-8.22 | √   |
 | re-finetune | 8.23-8.28 | waiting |
 
 
